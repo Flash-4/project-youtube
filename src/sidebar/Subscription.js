@@ -14,7 +14,7 @@ const Subscription = () => {
     }
   return (
     <div>
-      how you da....
+     This page is for subscriptions
     </div>
   )
 }

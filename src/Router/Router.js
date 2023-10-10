@@ -4,7 +4,6 @@ import Content from "../body/Content";
 import Watch from "../watch/Watch";
 import Shorts from "../Shorts";
 import Subscription from "../sidebar/Subscription";
-import Todolist from "../todolist/todolist";
 
 export const appRouter = createBrowserRouter([
     {
@@ -24,9 +23,6 @@ export const appRouter = createBrowserRouter([
         },{
             "path":"/subscriptions",
             "element":<Subscription/>
-        },{
-            "path":"/todo",
-            "element":<Todolist/>
         }
             
         ]
